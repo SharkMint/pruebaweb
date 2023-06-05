@@ -1,0 +1,78 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - paginaweb</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/paginaweb.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="section">
+        <h1 class="text-white text-lg-start pt-5">We manage of the flow 'PR' </h1>
+        <h1 class="text-white text-lg-start">power suply. </h1>
+
+        <div class="form">
+            <form class="m-0 pt-5">
+                <div class="input-group">
+                    <input class="inputext form-group col-md-4 p-1 border-0" type="text" placeholder="ingrese su correo electronico" />
+
+                    <div class="input-group-append">
+                        <input class="btn btn-primary" type="submit" value="Suscribirse" />
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="noticias container-fluid">
+        <h3 class="txt text-monospace mt-5 mb-5">Mantenente al dia con nuestras noticias mas recientes en nuestra pagina web.</h3>
+
+        <div class="container mt-5 " >
+            <div class="row justify-content-around " >
+                <div class="col-sm-4" >
+                    <div class="card" style="width: 18rem;">
+                        <img src="./imagenes/download.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./imagenes/download2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./imagenes/Imagen.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+
+</body>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+
